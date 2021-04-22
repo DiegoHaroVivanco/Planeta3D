@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="Margecube.Back" size="6.000000 6.000000"/>
+        <ImageTarget name="Margecube.Top" size="6.000000 6.000000"/>
+        <ImageTarget name="Margecube.Left" size="6.000000 6.000000"/>
+        <ImageTarget name="Margecube.Bottom" size="6.000000 6.000000"/>
+        <ImageTarget name="Margecube.Right" size="6.000000 6.000000"/>
+        <ImageTarget name="Margecube.Front" size="6.000000 6.000000"/>
+        <MultiTarget name="Margecube">
+            <Part name="Margecube.Left" translation="-3.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Margecube.Right" translation="3.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Margecube.Front" translation="0 0 3.0" rotation="AD: 1 0 0 0"/>
+            <Part name="Margecube.Back" translation="0 0 -3.0" rotation="AD: 0 1 0 180"/>
+            <Part name="Margecube.Top" translation="0 3.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Margecube.Bottom" translation="0 -3.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
